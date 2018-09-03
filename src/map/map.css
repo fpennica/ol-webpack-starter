@@ -1,0 +1,16 @@
+#map {
+    margin: 0;
+    height: 100%;
+    width: 100%;
+    /* remove next lines to disable opening animation */
+    opacity: 0;
+    transform: scale(0.1, 0.1);
+}
+
+.layer-switcher .panel {
+    background-color: rgba(255, 255, 255, 0.80) !important;
+}
+
+.layer-switcher.ol-control button {
+    background-color: rgba(255, 255, 255, 0.70) !important;
+}

@@ -1,0 +1,30 @@
+{
+  "name": "ol-webpack-starter",
+  "version": "1.0.0",
+  "description": "Simple webpack starter pack for OpenLayers 5.x",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node_modules/.bin/webpack-serve --open --host 0.0.0.0 --config webpack.dev.js",
+    "build": "node_modules/.bin/webpack --config webpack.prod.js"
+  },
+  "author": "Francesco Pennica",
+  "license": "GPL",
+  "devDependencies": {
+    "babel-core": "^6.26.3",
+    "babel-loader": "^7.1.4",
+    "babel-preset-env": "^1.7.0",
+    "clean-webpack-plugin": "^0.1.19",
+    "css-loader": "^0.28.11",
+    "html-webpack-plugin": "^3.2.0",
+    "style-loader": "^0.21.0",
+    "webpack": "^4.8.3",
+    "webpack-cli": "^2.1.3",
+    "webpack-merge": "^4.1.2",
+    "webpack-serve": "^1.0.2"
+  },
+  "dependencies": {
+    "normalize.css": "^8.0.0",
+    "ol": "^5.2.0",
+    "ol-layerswitcher": "^3.0.0"
+  }
+}
